@@ -37,6 +37,6 @@ jobs:
           echo sss
           echo ${{ secrets.FOO }}
           echo qqq
-          echo ${{ super_secret }}
+          echo ${{ env.super_secret }}
           echo Add other actions to build,
           echo test, and deploy your project.
