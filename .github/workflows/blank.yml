@@ -33,6 +33,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo sss
-          echo ${secrets.FOO}
+          echo ${{ secrets.FOO }}
           echo Add other actions to build,
           echo test, and deploy your project.
